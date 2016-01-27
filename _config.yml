@@ -1,0 +1,9 @@
+markdown: redcarpet
+
+# delete when config to custom domain
+# baseurl: /britishcambridge
+
+exclude: ['README.md']
+
+#remove .html in links
+permalink: pretty

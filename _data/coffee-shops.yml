@@ -1,0 +1,11 @@
+- title: "Coffee Bean and Tea Leaf"
+  folder: coffee-bean-and-tea-leaf
+  content: 'lorem **ipsum** dolor isit'
+
+- title: "McCafe"
+  folder: mccafe
+  content: 'Ut enim ad minim veniam, quis nostrud exercitation'
+
+- title: "Starbucks Coffee"
+  folder: starbucks-coffee
+  content: 'Sunt in culpa qui officia deserunt mollit'

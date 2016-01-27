@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <title>British Cambridge</title>
+    <meta name="description" content="British Cambdrige website">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="{{site.baseurl}}/css/flexslider.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/line-icons.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/web-mob-icons.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/lightbox.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+    <!--[if gte IE 9]>
+    	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+		<![endif]-->
+	   <script src="{{site.baseurl}}/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+
+  <body>
+    <div class="nav-container">
+    	<nav class="top-bar overlay-bar">
+    		<div class="container">
+
+    			<div class="row utility-menu">
+    				<div class="col-sm-12">
+    					<div class="utility-inner clearfix">
+    						<span class="alt-font"><i class="icon icon_pin"></i> Pasig, Philippines</span>
+    						<span class="alt-font"><i class="icon icon_mail"></i> info@britishcambridge.org</span>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="row nav-menu">
+    				<div class="col-sm-12 col-md-6 columns">
+    					<a href="{{site.baseurl}}/">
+    						<img class="logo logo-light" alt="Logo" src="{{site.baseurl}}/img/logo-light.png">
+    						<img class="logo logo-dark" alt="Logo" src="{{site.baseurl}}/img/logo-dark.png">
+    					</a>
+    				</div>
+
+    				<div class="col-sm-12 col-md-6 columns">
+              {% include nav.html %}
+            </div>
+    			</div>
+
+    			<div class="mobile-toggle">
+    				<i class="icon icon_menu"></i>
+    			</div>
+
+    		</div>
+    	</nav>
+    </div>
+
+    {{content}}
+
+    <footer class="short bg-secondary-1">
+			<div class="container">
+				<div class="row">
+          {% include footer.html %}
+				</div>
+			</div>
+		</footer>
+  </body>
+  <script src="{{site.baseurl}}/js/jquery.min.js"></script>
+	<script src="{{site.baseurl}}/js/jquery.plugin.min.js"></script>
+	<script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+	<script src="{{site.baseurl}}/js/jquery.flexslider-min.js"></script>
+	<script src="{{site.baseurl}}/js/smooth-scroll.min.js"></script>
+	<script src="{{site.baseurl}}/js/skrollr.min.js"></script>
+	<script src="{{site.baseurl}}/js/scrollReveal.min.js"></script>
+	<script src="{{site.baseurl}}/js/isotope.min.js"></script>
+	<script src="{{site.baseurl}}/js/lightbox.min.js"></script>
+	<script src="{{site.baseurl}}/js/jquery.countdown.min.js"></script>
+	<script src="{{site.baseurl}}/js/scripts.js"></script>
+</html>

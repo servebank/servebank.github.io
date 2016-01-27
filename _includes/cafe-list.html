@@ -1,0 +1,11 @@
+<ul>
+  {% for coffee in site.pages %}
+    {% if coffee.type == include.type %}
+      <li>
+        <img src="{{page.baseurl}}/img/{{coffee.image}}" style="height:100px">
+        {{coffee.title}}
+        <p>{{coffee.meta}}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,21 @@
+<!-- <nav>
+  <ul class="nav {{include.navclass}}">
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/cafes/" class="{% if page.url contains 'cafes' %}current{% endif %}">Cafe</a></li>
+    <li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news' or page.url contains 'announcements' %} current {% endif %}">News</a></li>
+  </ul>
+</nav> -->
+
+<ul class="menu {{include.navclass}}">
+	<li><a href="{{site.baseurl}}/">Home</a></li>
+	<li><a href="{{site.baseurl}}/about-us/">About Us</a></li>
+	<li class="has-dropdown"><a href="{{site.baseurl}}/investing/">Services</a>
+		<ul class="subnav">
+			<li><a href="{{site.baseurl}}/services/investing/">Investing</a></li>
+			<li><a href="{{site.baseurl}}/services/listing/">Listing</a></li>
+			<li><a href="{{site.baseurl}}/services/funding/">Funding</a></li>
+		</ul>
+	</li>
+	<li><a href="{{site.baseurl}}/news/">News</a></li>
+	<li><a href="{{site.baseurl}}/contact-us/">Contact Us</a></li>
+</ul>

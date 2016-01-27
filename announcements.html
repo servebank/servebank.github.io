@@ -1,0 +1,14 @@
+---
+layout: news
+---
+
+<h2>Announcements</h2>
+
+<ul>
+  {% for news in site.categories.announcements %}
+    <li class="news-title">
+      <a href="">{{news.title}}</a>
+      <p>{{news.meta}}</p>
+    </li>
+  {% endfor %}
+</ul>
